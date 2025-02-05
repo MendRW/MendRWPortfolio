@@ -82,3 +82,20 @@ a:hover {
     cursor: default;
 }
 
+/* hamburger menu */
+
+hamburger-nav {
+    display: none;
+}
+.hamburger-menu {
+    position: relative;
+    display: inline-block;
+}
+.hamburger-con{
+    display: flex;
+    flex-direction: column;
+    justifu-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+}
