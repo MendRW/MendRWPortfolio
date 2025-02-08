@@ -25,7 +25,7 @@
     font-style: normal;
   }
   
-    *{
+    * {
         margin: 0;
         padding: 0;
     }
@@ -83,14 +83,14 @@ a:hover {
 
 /* hamburger menu */
 
-.hamburger-nav {
+#hamburger-nav {
     display: none;
 }
 .hamburger-menu {
     position: relative;
     display: inline-block;
 }
-.hamburger-icon{
+.hamburger-icon span{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
